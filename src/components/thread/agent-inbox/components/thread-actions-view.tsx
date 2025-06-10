@@ -81,7 +81,7 @@ export function ThreadActionsView({
   } = useInterruptedActions({
     interrupt,
   });
-  const apiUrl = process.env.NEXT_PUBLIC_LANGGRAPH_API_URL ?? "http://localhost:2024";
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:2024";
 
   const handleOpenInStudio = () => {
     if (!apiUrl) {

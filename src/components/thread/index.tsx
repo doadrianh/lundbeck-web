@@ -269,7 +269,7 @@ export function Thread() {
                 }}
               >
                 <span className="text-xl font-semibold tracking-tight">
-                  Lundbeck Chatbot
+                  Lundbeck
                 </span>
               </motion.button>
             </div>
@@ -338,7 +338,7 @@ export function Thread() {
                 {!chatStarted && (
                   <div className="flex gap-3 items-center">
                     <h1 className="text-2xl font-semibold tracking-tight">
-                      Lundbeck Chatbot
+                      Lundbeck
                     </h1>
                   </div>
                 )}
